@@ -17,7 +17,7 @@ const Header = () => {
         </h5>
 
         <div className='header__resume'>
-          <a href={CV} download className='btn btn-primary'>Resume!</a>
+          <a href={CV} target="_blank" rel="noreferrer" className='btn btn-primary'>Resume!</a>
         </div>
 
         <div className="header__socials">

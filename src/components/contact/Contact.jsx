@@ -11,7 +11,7 @@ const Contact = () => {
         I'm always open to new opportunities in software, AI, and anything practical! Feel free to reach out. My inbox is always open!
       </p>
       <div className='contact__connect'>
-        <a href={CV} download className='btn btn-primary'>Resume!</a>
+        <a href={CV} target="_blank" rel="noreferrer" className='btn btn-primary'>Resume!</a>
         <a href={`mailto:jimmyzha@andrew.cmu.edu`} className='btn btn-primary'>Let's Connect!</a>
       </div>
     </section>
