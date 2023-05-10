@@ -1,0 +1,184 @@
+/* PROJECT CARD LIST STYLES */
+#projects {
+  margin: 8rem 10rem 0 10rem;
+  height: 100%;
+}
+
+.project__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  transition: var(--transition);
+}
+
+/* INDIVIDUAL PROJECT CARD STYLES */
+.project__container {
+  position: relative;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.project__container:not(:last-of-type) {
+  margin-bottom: 100px;
+}
+
+.project__content {
+  position: relative;
+  grid-column: 1 / 7;
+  grid-row: 1 / -1;
+  z-index: 2;
+}
+
+
+.project__box {
+  background-color: var(--color-bg-variant);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.project__title {
+  color: var(--teal);
+  font-family: 'Courier', 'Courier New';
+  font-weight: 700;
+  font-size: clamp(16px, 3.5vw, 20px);
+}
+
+.project__desc {
+  font-size: clamp(14px, 2.5vw, 16px);
+  margin: 10px 0px;
+  color: var(--color-light);
+}
+
+.project__tech {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.project__tech-label {
+  padding: 0px 8px;
+  font-family: 'Courier', 'Courier New';
+  font-size: clamp(14px, 2.5vw, 15px);
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.project__link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.project__link-logo {
+  margin: 0.5rem;
+}
+
+.project__image {
+  grid-column: 6 / -1;
+  grid-row: 1 / -1;
+  position: relative;
+  z-index: 1;
+  transition: var(--transition);
+}
+
+.project__image:hover {
+  background: transparent;
+  outline: 0;
+}
+
+.project__image .project__img {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%) contrast(1) brightness(70%);
+  transition: var(--transition);
+}
+
+.project__image > .project__img:hover {
+  background: transparent;
+  filter: none;
+}
+
+/* MEDIA QUERIES: MEDIUM DEVICES, TABLETS, ETC */
+
+@media screen and (max-width: 1024px) {
+  #projects {
+    margin: 8rem 5rem 0 5rem;
+  }
+
+  .project__content {
+    grid-column: 1 / 9;
+  }
+}
+
+/* MEDIA QUERIES: SMALL DEVICES, PHONES, ETC */
+
+@media screen and (max-width: 600px) {
+  .project__list {
+    padding: 2rem 0.75rem;
+  }
+
+  .project__container {
+    margin-bottom: 70px;
+  }
+
+  .project__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    grid-column: 1 / -1;
+    padding: 40px 40px 30px;
+    margin: 0;
+    background-color: transparent;
+  }
+
+
+  .project__box {
+    background-color: transparent;
+  }
+
+  .project__title {
+    text-align: center;
+  }
+
+  .project__desc {
+    text-align: center;
+    color: var(--color-white);
+  }
+
+  .project__tech {
+    justify-content: center;
+  }
+
+  .project__link {
+    justify-content: center;
+  }
+
+  .project__image {
+    grid-column: 1 / -1;
+    height: 100%;
+    opacity: 0.25;
+  }
+
+  .project__image .project__img {
+    object-fit: cover;
+    height: 500px;
+    filter: grayscale(100%) contrast(1) brightness(60%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project__container {
+    margin-bottom: 30px;
+  }
+
+  .project__content {
+    padding: 25px 25px 20px;
+  }
+}

@@ -1,0 +1,134 @@
+.experience__container {
+  display: flex;
+  z-index: 4;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience__list {
+  position: relative;
+  width: max-content;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: var(--transition);
+}
+
+.experience__button {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px 2px;
+  border-left: 2px solid var(--color-white);
+  background-color: transparent;
+  font-family: 'Courier', 'Courier New';
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: left;
+  color: var(--color-white);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+
+.active__button {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.experience__button:hover,
+.experience__button:focus {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.experience__panels {
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.experience__panel {
+  width: 100%;
+  height: auto;
+  padding: 10px 5px;
+  transition: var(--transition);
+}
+
+.experience__panel h3 {
+  margin-bottom: 2px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--color-white);
+}
+
+.experience__panel h4 {
+  color: var(--color-primary);
+}
+
+.experience__bullets {
+  padding: 1vw 2vw 0px 0px;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  hyphens: auto;
+}
+
+.experience__bullets li {
+  font-family: 'Courier', 'Courier New';
+  font-size: clamp(12px, 2vw, 14px);
+  color: var(--color-white);
+  padding-left: 40px;
+  margin-bottom: 5px;
+  hyphens: none;
+}
+
+
+.experience__bullets li::before {
+  content: "»";
+  position: absolute;
+  left: 20px;
+  color: var(--teal);
+}
+
+/* MEDIA QUERIES: MEDIUM DEVICES, TABLETS, ETC */
+
+@media screen and (max-width: 1024px) {
+  #experience {
+    margin-top: 12rem;
+  }
+}
+
+/* MEDIA QUERIES: SMALL DEVICES, PHONES, ETC */
+
+@media screen and (max-width: 784px) {
+  .experience__container {
+    display: block;
+  }
+
+  .experience__list {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .experience__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    padding: 0 15px;
+    border-left: 0;
+    border-bottom: 2px solid var(--color-white);
+    text-align: center;
+  }
+
+  .experience__panel li {
+    padding-right: 30px;
+  }
+}
