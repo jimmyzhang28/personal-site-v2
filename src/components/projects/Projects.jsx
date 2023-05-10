@@ -3,16 +3,9 @@ import { experiences } from '../../assets/info'
 import Project from './Project'
 import './projects.css'
 
-import discord from '../../assets/discord.jpg'
-import alexa from '../../assets/alexa.jpg'
-import website from '../../assets/website.jpg'
-
 const Projects = () => {
 
   let data = experiences.projectInfo;
-  data[0].picture = discord;
-  data[1].picture = alexa;
-  data[2].picture = website;
 
   return (
     <section id='projects'>

@@ -1,3 +1,7 @@
+import discord from '../assets/discord.jpg'
+import alexa from '../assets/alexa.jpg'
+import website from '../assets/website.png'
+
 const experiences = {
   classes: [
     "10-707: Advanced Deep Learning (S23)",
@@ -78,7 +82,8 @@ const experiences = {
         "Node.js", "Discord.js", "MongoDB", "Heroku"
       ],
       githubLink: "https://github.com/jimmyzhang28/ChessingDiscordBot",
-      externalLink: "https://discord.com/oauth2/authorize?client_id=741773920570441910&scope=bot"
+      externalLink: "https://discord.com/oauth2/authorize?client_id=741773920570441910&scope=bot",
+      picture: discord
     },
     {
       title: "Song Match Alexa Skill",
@@ -87,15 +92,17 @@ const experiences = {
         "Node.js", "Alexa Skills Kit", "AWS Lambda", "YouTube API"
       ],
       githubLink: "https://github.com/jimmyzhang28/SongMatchSkill",
-      externalLink: "https://www.amazon.com/Jimmy-Zhang-SongMatchSkill/dp/B08XQHP2LK/"
+      externalLink: "https://www.amazon.com/Jimmy-Zhang-SongMatchSkill/dp/B08XQHP2LK/",
+      picture: alexa
     },
     {
       title: "This Website!",
-      description: "A fun project made with the React-based GatsbyJS framework that taught me more about HTML, CSS, and SEO strategies. Enjoy the product!",
+      description: "A fun project made with the React framework that taught me more about HTML, CSS, and SEO strategies. Enjoy the product!",
       tech: [
-        "Gatsby", "React", "HTML", "CSS"
+        "React", "HTML", "CSS"
       ],
       githubLink: "https://github.com/jimmyzhang28/personal-site",
+      picture: website
     },
   ]
 };

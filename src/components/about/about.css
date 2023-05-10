@@ -1,5 +1,7 @@
 #about {
   height: 100%;
+  max-width: 1400px;
+  margin: 8rem auto 0 auto;
 }
 
 #about .about__container {

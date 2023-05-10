@@ -1,7 +1,8 @@
 /* PROJECT CARD LIST STYLES */
 #projects {
-  margin: 8rem 10rem 0 10rem;
+  margin: 8rem auto 0 auto;
   height: 100%;
+  max-width: 1000px;
 }
 
 .project__list {
@@ -47,7 +48,7 @@
 }
 
 .project__desc {
-  font-size: clamp(14px, 2.5vw, 16px);
+  font-size: clamp(12px, 2vw, 14px);
   margin: 10px 0px;
   color: var(--color-light);
 }
@@ -64,7 +65,7 @@
   font-family: 'Courier', 'Courier New';
   font-size: clamp(14px, 2.5vw, 15px);
   text-align: center;
-  color: var(--color-primary);
+  color: var(--color-teal);
 }
 
 .project__link {
