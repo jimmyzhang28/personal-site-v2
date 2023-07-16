@@ -17,6 +17,20 @@ const experiences = {
   ],
   experienceInfo: [
     {
+      company: "IMC Trading",
+      range: "Jun 2023 - Aug 2023",
+      role: "Software Engineer Intern",
+      bulletPoints: [
+        "Contributed performant Java to 15+ interconnected internal components under the Equity Options execution team",
+        "Implemented robust error handling, fallback behavior, and interactive graphical interfaces for options quoting logic",
+        "Collaborated with quantitative traders daily to fulfill ad-hoc requests and new trading features",
+        "Discussed system-wide design implementations for larger scale quoting projects with full-time developers"
+      ],
+      tech: [
+        "Java"
+      ],
+    },
+    {
       company: "Meta",
       range: "Jun 2022 - Aug 2022",
       role: "Software Engineer Intern",
