@@ -4,6 +4,8 @@ import website from '../assets/website.png'
 
 const experiences = {
   classes: [
+    "15-411: Compiler Design (S24) ♡♡♡",
+    "15-445: Intro to Database Systems (F23)",
     "10-707: Advanced Deep Learning (S23)",
     "10-605: Machine Learning with Large Datasets (S23)",
     "15-440: Distributed Systems (F22)",
@@ -12,8 +14,6 @@ const experiences = {
     "15-210: Parallel and Sequential Algorithms (S22)",
     "15-213: Introduction to Computer Systems (F21)",
     "15-150: Principles of Functional Programming (S21)",
-    "15-251: Great Theoretical Ideas in Computer Science (S21)",
-    "15-151: Mathematical Foundations for Computer Science (F20)",
   ],
   experienceInfo: [
     {

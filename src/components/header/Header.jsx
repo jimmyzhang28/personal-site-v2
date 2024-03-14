@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from '../../assets/resume.pdf'
-import pfp from '../../assets/pfp.png'
+import pfp from '../../assets/me3.jpg'
 import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub, FaInstagramSquare } from 'react-icons/fa'
 import './header.css'

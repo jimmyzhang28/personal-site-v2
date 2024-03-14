@@ -1,5 +1,5 @@
 import React from 'react'
-import ABOUTPIC from '../../assets/about.jpeg'
+import ABOUTPIC from '../../assets/me2.jpg'
 import './about.css'
 import { experiences } from '../../assets/info';
 import { BiBasketball } from 'react-icons/bi'
@@ -24,8 +24,8 @@ const About = () => {
 
         <div className="about__content">
           <p className='about__header'>
-            Hi, I'm Jimmy! I'm a rising senior at Carnegie Mellon University 
-            majoring in computer science with minors in machine learning 
+            Hi, I'm Jimmy! I'm a senior at Carnegie Mellon University 
+            majoring in computer science with minors in machine learning, systems, 
             and business administration.
             Here are some cool classes I've taken at CMU!
           </p>
@@ -43,7 +43,7 @@ const About = () => {
         <div className="about__content">
           <p className='about__header'>
             I've also been a Teaching Assistant (TA) for 
-            15-259 (S23), 15-210 (F22), 15-150 (S22) and 15-151 (F21). I am actively
+            15-259 (S24, S23), 15-210 (F23, F22), 15-150 (S22) and 15-151 (F21). I am actively
           </p>
           <ul className="about__ta-list">
             <li>leading recitations for 20+ students</li>
