@@ -1,5 +1,5 @@
 import React from 'react'
-import ABOUTPIC from '../../assets/me2.jpg'
+import ABOUTPIC from '../../assets/me3.jpg'
 import './about.css'
 import { experiences } from '../../assets/info';
 import { BiBasketball } from 'react-icons/bi'
@@ -24,9 +24,9 @@ const About = () => {
 
         <div className="about__content">
           <p className='about__header'>
-            Hi, I'm Jimmy! I'm a senior at Carnegie Mellon University 
-            majoring in computer science with minors in machine learning, systems, 
-            and business administration.
+            Hi, I'm Jimmy! I'm an incoming software engineer at IMC Trading
+            and recently graduated from CMU with a major in computer science 
+            and minors in machine learning, systems, and business administration.
             Here are some cool classes I've taken at CMU!
           </p>
           <ul className="about__classes">
@@ -43,13 +43,13 @@ const About = () => {
         <div className="about__content">
           <p className='about__header'>
             I've also been a Teaching Assistant (TA) for 
-            15-259 (S24, S23), 15-210 (F23, F22), 15-150 (S22) and 15-151 (F21). I am actively
+            15-259 (S24, S23), 15-210 (F23, F22), 15-150 (S22) and 15-151 (F21), where I've
           </p>
           <ul className="about__ta-list">
-            <li>leading recitations for 20+ students</li>
-            <li>holding weekly office hours to offer extra help</li>
-            <li>grading homeworks and exams for 200+ students</li>
-            <li>cultivating a rigorous but enjoyable learning experience!</li>
+            <li>led recitations for 20+ students</li>
+            <li>held weekly office hours to offer extra help</li>
+            <li>graded homeworks and exams for 200+ students</li>
+            <li>cultivated a rigorous but enjoyable learning experience!</li>
           </ul>
         </div>
 

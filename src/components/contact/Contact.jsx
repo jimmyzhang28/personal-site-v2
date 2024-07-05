@@ -12,7 +12,7 @@ const Contact = () => {
       </p>
       <div className='contact__connect'>
         <a href={CV} target="_blank" rel="noreferrer" className='btn btn-primary'>Resume!</a>
-        <a href={`mailto:jimmyzha@andrew.cmu.edu`} className='btn btn-primary'>Let's Connect!</a>
+        <a href={`mailto:jimmyzhang7528@gmail.com`} className='btn btn-primary'>Let's Connect!</a>
       </div>
     </section>
   )

@@ -22,9 +22,11 @@ const Project = ({project}) => {
           </div>
         </div>
         <div className="project__link">
-          <a href={project.githubLink} aria-label="Project GitHub" target="_blank" rel="noreferrer" className="project__link-logo">
-            <FaGithub size={25}/>
-          </a>
+          {project.githubLink && (
+            <a href={project.githubLink} aria-label="Project GitHub" target="_blank" rel="noreferrer" className="project__link-logo">
+              <FaGithub size={25}/>
+            </a>
+          )}
           {project.externalLink && (
             <a href={project.externalLink} aria-label="Project Link" target="_blank" rel="noreferrer"className="project__link-logo">
               <BsSend size={25}/>

@@ -1,6 +1,7 @@
 import discord from '../assets/discord.jpg'
 import alexa from '../assets/alexa.jpg'
 import website from '../assets/website.png'
+import compiler from '../assets/compiler.png'
 
 const experiences = {
   classes: [
@@ -89,6 +90,18 @@ const experiences = {
     },
   ],
   projectInfo: [
+    {
+      title: "C0 Compiler",
+      description: <div>
+        Designed a compiler in OCaml compiling C0, a safe subset of C, into x86 assembly and LLVM. 
+        Semester partner project for 15-411 Compiler Design with 
+        <a href="https://zacksussman.com/" aria-label="Project GitHub" target="_blank" rel="noreferrer"> Zack Sussman</a>.
+        An absolute favorite, ask me about it!</div>,
+      tech: [
+        "OCaml", "C", "x86 Assembly", "Compiler Design"
+      ],
+      picture: compiler
+    },
     {
       title: "\"Chessing\" Discord Bot",
       description: "Created Discord bot that allows users to play chess, listen to YouTube media, and create randomized teams. Designed using Node.js and MongoDB Atlas and deployed with Heroku and GitHub.",
